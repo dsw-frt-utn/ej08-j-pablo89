@@ -1,4 +1,6 @@
-﻿namespace Dsw2026Ej8
+﻿using System.ComponentModel;
+
+namespace Dsw2026Ej8
 {
     internal class Program
     {
@@ -9,8 +11,15 @@
             //Console.WriteLine(ph.ObtenerEtiquetaProducto(1, "Coca Zero 2.5", 4500));
 
             // PRUEBA EJERCICIO 2.
-            var problema2 = new Problema2();
-            Console.WriteLine(problema2.CrearResumenVenta(1, "Teclado mecánico RGB", 1, 100000));
+            //var problema2 = new Problema2();
+            //Console.WriteLine(problema2.CrearResumenVenta(1, "Teclado mecánico RGB", 1, 100000));
+
+            // PRUEBA EJERCICIo 3.
+            var problema3 = new Problema3();
+            Console.WriteLine(problema3.CompararCopias(1, new Product { Description = "Primera Descripcion" }));
+
+
+
 
         }
     }
