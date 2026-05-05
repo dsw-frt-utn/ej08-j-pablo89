@@ -19,8 +19,18 @@ namespace Dsw2026Ej8
             //Console.WriteLine(problema3.CompararCopias(1, new Product { Description = "Primera Descripcion" }));
 
             // PRUEBA EJERCICIO 4.
-            var problema4 = new Problema4();
-            Console.WriteLine(problema4.CalcularPromedio(null, 8, 9));
+            //var problema4 = new Problema4();
+            //Console.WriteLine(problema4.CalcularPromedio(null, 8, 9));
+
+            // PRUEBA EJERCICIO 5.
+            var problema5 = new Problema5();
+            Sale s = new WholesaleSale { monto = 1000 };
+            Sale s2 = new RetailSale { monto = 1000 };
+            Console.WriteLine(problema5.ObtenerImporteFinal(s));
+            Console.WriteLine(problema5.ObtenerImporteFinal(s2));
+
+
+
 
 
 
