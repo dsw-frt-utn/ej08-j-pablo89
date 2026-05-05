@@ -15,8 +15,12 @@ namespace Dsw2026Ej8
             //Console.WriteLine(problema2.CrearResumenVenta(1, "Teclado mecánico RGB", 1, 100000));
 
             // PRUEBA EJERCICIo 3.
-            var problema3 = new Problema3();
-            Console.WriteLine(problema3.CompararCopias(1, new Product { Description = "Primera Descripcion" }));
+            //var problema3 = new Problema3();
+            //Console.WriteLine(problema3.CompararCopias(1, new Product { Description = "Primera Descripcion" }));
+
+            // PRUEBA EJERCICIO 4.
+            var problema4 = new Problema4();
+            Console.WriteLine(problema4.CalcularPromedio(null, 8, 9));
 
 
 
